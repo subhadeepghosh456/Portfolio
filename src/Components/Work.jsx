@@ -14,6 +14,7 @@ const Work = () => {
             <WorkCard
               key={index}
               imgsrc={value.imgsrc}
+              tech={value.tech}
               title={value.title}
               text={value.text}
               view={value.view}
